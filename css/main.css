@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  background-color: #0d192b;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+body, header, main, footer, h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+main {
+  width: 19rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+  background-color: #14253d;
+  border-radius: 15px;
+}
+
+main .illustrator {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+main h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+main p {
+  margin: 1rem 0;
+  color: #8bacda;
+}
+
+main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main div p span {
+  margin-right: 0.25rem;
+}
+
+main div .ETH {
+  color: #00fff7;
+}
+
+main hr {
+  height: 1px;
+  width: 100%;
+  background-color: #8bacda;
+  border: none;
+}
+
+main .creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .creator img {
+  height: 2.25rem;
+  width: 2.25rem;
+  margin-right: 1rem;
+}
+
+main .creator a {
+  margin-left: 3px;
+  color: white;
+}
+
+main .creator a:hover {
+  color: #00fff7;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */

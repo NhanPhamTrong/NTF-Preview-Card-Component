@@ -1,0 +1,107 @@
+main {
+    width: 19rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: $main-background;
+    border-radius: 15px;
+
+    .hero-image {
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+        position: relative;
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .hover-hero-image {
+            width: 100%;
+            height: 100%;
+            background: $hover-hero-image-background url("../images/icon-view.svg") no-repeat center;
+            border-radius: 10px;
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+        }
+    }
+
+    .hero-image:hover {
+        .hover-hero-image {
+            display: block;
+        }
+    }
+
+    h1 {
+        color: $word-color-1;
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    h1:hover {
+        color: $word-color-3;
+        cursor: pointer;
+    }
+
+    p {
+        margin: 1rem 0;
+        color: $word-color-2;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            span {
+                margin-right: 0.25rem;
+            }
+        }
+
+        .ETH {
+            color: $word-color-3;
+        }
+    }
+
+    hr {
+        height: 1px;
+        width: 100%;
+        background-color: $word-color-2;
+        border: none;
+    }
+
+    .creator {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 2.25rem;
+            width: 2.25rem;
+            margin-right: 1rem;
+        }
+
+        a {
+            margin-left: 3px;
+            color: $word-color-1;
+        }
+
+        a:hover {
+            color: $word-color-3;
+        }
+    }
+}
+
+footer {
+    .attribution {
+        font-size: 11px; text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}

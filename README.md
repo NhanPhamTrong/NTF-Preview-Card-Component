@@ -30,7 +30,7 @@ Users should be able to:
 - SCSS
 
 ### Useful resources
-- https://www.w3schools.com/
+- W3Schools: https://www.w3schools.com/
 
 ## Author
 - GitHub: https://github.com/NhanPhamTrong
